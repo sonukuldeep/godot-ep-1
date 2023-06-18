@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Characters/player_cat.gd" id="1_od4nu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vx1d8"]
-size = Vector2(12, 6)
+size = Vector2(12, 7)
 
 [sub_resource type="Animation" id="Animation_uwu05"]
 length = 0.001
@@ -245,7 +245,7 @@ hframes = 4
 vframes = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 5)
+position = Vector2(0, 4.5)
 shape = SubResource("RectangleShape2D_vx1d8")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
