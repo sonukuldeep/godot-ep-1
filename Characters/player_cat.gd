@@ -37,5 +37,8 @@ func pick_new_state():
 		state_machine.travel("idle")
 
 
+
+
+
 func _on_button_pressed():
-	get_tree().quit() # Replace with function body.
+	get_tree().change_scene_to_file("res://Levels/menu.tscn") # Replace with function body.
