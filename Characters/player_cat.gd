@@ -35,3 +35,7 @@ func pick_new_state():
 		state_machine.travel("walk")
 	else:
 		state_machine.travel("idle")
+
+
+func _on_button_pressed():
+	get_tree().quit() # Replace with function body.

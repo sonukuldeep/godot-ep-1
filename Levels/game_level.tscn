@@ -755,3 +755,12 @@ position_smoothing_enabled = true
 
 [node name="Cow" parent="." instance=ExtResource("8_wdbf2")]
 position = Vector2(-162, 38)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_right = 42.0
+offset_bottom = 31.0
+text = "Quit"
+
+[connection signal="pressed" from="CanvasLayer/Button" to="PlayerCat" method="_on_button_pressed"]
